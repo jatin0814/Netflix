@@ -1,3 +1,4 @@
+
 html{
   background-color: #000;
 }
@@ -133,12 +134,16 @@ button{
 }
 #v2{
   position: relative;
-  bottom: 85%;
+  bottom: 65%;
   left: 18%;
   z-index: -3;
+  width: 400px;
 }
 #v2 video{
-  width: 400px;
+  width: 300px;
+}
+#media3 img{
+  width:500px;
 }
 #faq{
   color: #fff;
@@ -203,5 +208,10 @@ button{
   border: none;
   background-color: #e50914;
   font-weight: bold
-};
-
+}
+.ans{
+  display: block;
+}
+.answer{
+  display: none;
+}

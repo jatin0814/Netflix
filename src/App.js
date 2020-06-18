@@ -68,28 +68,80 @@ function App() {
     <div id='ques'>
     <div>
         <span>What is Netflix?
-        <img src={plus}/>
+        <img src={plus} onClick={()=>{
+          var x = document.getElementById("ans1");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+              x.style.display = "none";
+          }}
+        }/>
         </span>
+        <p id="ans1" style={{display:"none"}}><hr/>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies,
+          anime, documentaries and more - on thousands of internet-connected devices.
+          You can watch as much as you want, whenever you want, without a single 
+          ad - all for one low monthly price. There's always something new to discover,
+          and new TV shows and movies are added every week!</p>
     </div>
 
     <div>
        <span> How much does Netflix cost?
-        <img src={plus}/></span>
+        <img src={plus} onClick={()=>{
+          var x = document.getElementById("ans2");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+              x.style.display = "none";
+          }}
+        }/></span>
+        <p id="ans2" style={{display:"none"}}><hr/>Watch Netflix on your smartphone, tablet, smart TV, laptop or streaming device,
+         all for one low fixed monthly fee. Plans start from Rs.199 a month. No extra 
+         costs or contracts.</p>
     </div>
 
     <div>
         <span>Where can I watch?
-        <img src={plus}/></span>
+        <img src={plus} onClick={()=>{
+          var x = document.getElementById("ans3");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+              x.style.display = "none";
+          }}
+        }/></span>
+        <p id="ans3" style={{display:"none"}}><hr/>Watch anywhere, anytime, on an unlimited number of devices. Sign in with your 
+        Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers
+         the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles. You can also download your
+          favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet 
+          connection. Take Netflix with you anywhere.</p>
     </div>
 
     <div>
         <span>How do I cancel?
-        <img src={plus}/></span>
+        <img src={plus} onClick={()=>{
+          var x = document.getElementById("ans4");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+              x.style.display = "none";
+          }}
+        }/></span>
+       <p id="ans4" style={{display:"none"}}><hr/> Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks.
+         There are no cancellation fees - start or stop your account anytime.</p>
     </div>
 
     <div>
        <span> What can I watch on Netflix?
-        <img src={plus}/></span>
+        <img src={plus} onClick={()=>{
+          var x = document.getElementById("ans5");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+              x.style.display = "none";
+          }}
+        }/></span>
+        <p id="ans5" style={{display:"none"}}><hr/>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. 
+        Watch as much as you want, anytime you want.</p>
     </div>
     </div>
     <br/>
